@@ -1,0 +1,248 @@
+{
+	"anatomy": {
+		"prefix": "anatomy",
+		"body": "\n<Container>\n\t<Header>\n\t\t<Button>\n\t\t\t<Icon name=\"$1\"/>\n\t\t</Button>\n\t\t<Title>$2</Title>\n\t\t<Button>\n\t\t\t<Icon name=\"$3\" />\n\t\t</Button>\n\t</Header>\n\n\t<Content>\n\t</Content>\n\n\t<Footer>\n\t\t<FooterTab>\n\t\t\t<Button>\n\t\t\t\t$4\n\t\t\t\t<Icon name=\"$5\" />\n\t\t\t</Button>\n\t\t\t<Button>\n\t\t\t\t$6\n\t\t\t\t<Icon name=\"$7\" />\n\t\t\t</Button>\n\t\t\t<Button>\n\t\t\t\t$8\n\t\t\t\t<Icon name=\"$9\" />\n\t\t\t</Button>\n\t\t\t<Button>\n\t\t\t\t$10\n\t\t\t\t<Icon name=\"$11\" />\n\t\t\t</Button>\n\t\t</FooterTab>\n\t</Footer>\n</Container>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"badge": {
+		"prefix": "badge",
+		"body": "\n<Badge>\n\t$1\n</Badge>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"button": {
+		"prefix": "button",
+		"body": "\n<Button>\n\t$1\n</Button>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"card": {
+		"prefix": "card",
+		"body": "\n<Card>\n\t<CardItem>\n\t\t<Text>\n\t\t\t$1\n\t\t</Text>\n\t</CardItem>\n</Card>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"cardDynamic": {
+		"prefix": "cardDynamic",
+		"body": "\n<Card dataArray={$1} renderRow={($2) =>\n\t<CardItem>\n\t\t$3\n\t</CardItem>\n\t}>\n</Card>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"cardImage": {
+		"prefix": "cardImage",
+		"body": "\n<Card>\n\t<CardItem>\n\t\t<Thumbnail source={$1} />\n\t\t<Text></Text>\n\t\t<Text note></Text>\n    </CardItem>\n    <CardItem>\n    \t<Image source={} />\n    </CardItem>\n    <CardItem>\n    \t<Button transparent>\n    \t\n    \t</Button>\n\t</CardItem>\n</Card>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"cardItem": {
+		"prefix": "cardItem",
+		"body": "\n<CardItem>\n\t<Text>\n\t\t$1\n\t</Text>\n</CardItem>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"cardShowcase": {
+		"prefix": "cardShowcase",
+		"body": "\n<Card>\n\t<CardItem>\n\t\t<Thumbnail source={$1} />\n\t\t<Text></Text>\n\t\t<Text note></Text>\n\t</CardItem>\n\t<CardItem cardBody>\n\t\t<Image source={} />\n\t\t<Text>\n\n\t\t</Text>\n\t\t<Button transparent>\n\n\t\t</Button>\n\t</CardItem>\n</Card>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"checkbox": {
+		"prefix": "checkbox",
+		"body": "\n<CheckBox checked={false$1} />\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"col": {
+		"prefix": "col",
+		"body": "\n<Col $1/>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"container": {
+		"prefix": "container",
+		"body": "\n<Container>\n\t$1\n</Container>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"content": {
+		"prefix": "content",
+		"body": "\n<Content>\n\t$1\n</Content>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"deckSwiper": {
+		"prefix": "deckSwiper",
+		"body": "\n<DeckSwiper dataSource={$1} renderItem={$2 =>\n\t<Card>\n\t\t<CardItem>\n\t\t\t<Thumbnail source={$3} />\n\t\t\t<Text></Text>\n\t\t\t<Text note></Text>\n\t\t</CardItem>\n\t\t<CardItem>\n\t\t\t<Image source={$4} />\n\t\t</CardItem>\n\t\t<CardItem>\n\t\t\t<Icon name=\"$5\" />\n\t\t\t<Text></Text>\n\t\t</CardItem>\n\t</Card>\n/>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"fab": {
+		"prefix": "fab",
+		"body": "\n<Fab\n\tactive={$1}\n\tdirection=\"up\"\n\tcontainerStyle={{$2}}\n\tposition=\"bottomRight\"\n\tonPress={() => $3}\n>\n\t<Icon name=\"$4\" />\n\t<Button>\n\t\t<Icon name=\"$5\" />\n\t</Button>\n\t<Button>\n\t\t<Icon name=\"$6\" />\n\t</Button>\n\t<Button>\n\t\t<Icon name=\"$7\" />\n\t</Button>\n</Fab>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"footerTab": {
+		"prefix": "footerTab",
+		"body": "\n<Footer>\n\t<FooterTab>\n\t\t<Button>\n\t\t\t$1\n\t\t\t<Icon name=\"$2\" />\n\t\t</Button>\n\t\t<Button>\n\t\t\t$3\n\t\t\t<Icon name=\"$4\" />\n\t\t</Button>\n\t\t<Button>\n\t\t\t$5\n\t\t\t<Icon name=\"$6\" />\n\t\t</Button>\n\t\t<Button>\n\t\t\t$7\n\t\t\t<Icon name=\"$8\" />\n\t\t</Button>\n\t</FooterTab>\n</Footer>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"grid": {
+		"prefix": "grid",
+		"body": "\n<Grid>\n\t<Col $1/>\n\t<Row $2/>\n</Grid>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"h1": {
+		"prefix": "h1",
+		"body": "\n<H1>$1</H1>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"h2": {
+		"prefix": "h2",
+		"body": "\n<H2>$1</H2>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"h3": {
+		"prefix": "h3",
+		"body": "\n<H3>$1</H3>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"header": {
+		"prefix": "header",
+		"body": "\n<Header>\n\t<Button>\n\t\t<Icon />\n\t</Button>\n\t<Title>\n\t\t$1\n\t</Title>\n    <Button>\n    \t<Icon />\n    </Button>\n</Header>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"icon": {
+		"prefix": "icon",
+		"body": "\n<Icon name=\"$1\"/>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"iconTextbox": {
+		"prefix": "iconTextbox",
+		"body": "\n<InputGroup>\n\t<Icon name=\"$1\" />\n\t<Input placeholder=\"Type your text here$2\"/>\n</InputGroup>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"image": {
+		"prefix": "image",
+		"body": "\n<Image source={$1} />\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"list": {
+		"prefix": "list",
+		"body": "\n<List>\n\t<ListItem>\n\t\t<Text>$1</Text>\n\t</ListItem>\n</List>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"listAvatar": {
+		"prefix": "listAvatar",
+		"body": "\n<List>\n\t<ListItem>\n\t\t<Thumbnail source={$1} />\n\t\t<Text>$2</Text>\n\t\t<Text note>$3</Text>\n    </ListItem>\n</List>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"listDynamic": {
+		"prefix": "listDynamic",
+		"body": "\n<List dataArray={$1} renderRow={($2) =>\n\t<ListItem>\n\t\t<Text>$3</Text>\n\t</ListItem>\n\t}>\n</List>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"listIcon": {
+		"prefix": "listIcon",
+		"body": "\n<List>\n\t<ListItem iconLeft>\n\t\t<Icon name=\"$1\" />\n\t\t<Text>$2</Text>\n\t\t<Text note>$3</Text>\n\t</ListItem>\n</List>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"listItem": {
+		"prefix": "listItem",
+		"body": "\n<ListItem>\n\t<Text>$1</Text>\n</ListItem>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"listThumbnail": {
+		"prefix": "listThumbnail",
+		"body": "\n<List>\n\t<ListItem>\n\t\t<Thumbnail square size={80} source={$1} />\n\t\t<Text>$2</Text>\n\t\t<Text note>$3</Text>\n\t</ListItem>\n</List>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"picker": {
+		"prefix": "picker",
+		"body": "\n<Picker\n\tiosHeader=\"Select one$1\"\n\tmode=\"dropdown$2\"\n\tselectedValue={$3}\n\tonValueChange={$4}>\n    <Item label=\"$5\" value=\"$6\" />\n    <Item label=\"$7\" value=\"$8\" />\n</Picker>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"radio": {
+		"prefix": "radio",
+		"body": "\n<Radio selected={false$1} />\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"regularTextbox": {
+		"prefix": "regularTextbox",
+		"body": "\n<InputGroup borderType=\"regular\">\n\t<Input placeholder=\"Type your text here$1\"/>\n</InputGroup>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"roundedTextbox": {
+		"prefix": "roundedTextbox",
+		"body": "\n<InputGroup borderType=\"rounded\">\n\t<Input placeholder=\"Type your text here$1\"/>\n</InputGroup>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"row": {
+		"prefix": "row",
+		"body": "\n<Row $1/>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"searchbar": {
+		"prefix": "searchbar",
+		"body": "\n<Header searchBar rounded>\n\t<InputGroup>\n\t\t<Icon name=\"$1\" />\n\t\t<Input placeholder=\"Search$2\" />\n\t\t<Icon name=\"ios-people$3\" />\n\t</InputGroup>\n\t<Button transparent>\n\t\tSearch$4\n\t</Button>\n</Header>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"spinner": {
+		"prefix": "spinner",
+		"body": "\n<Spinner color=\"$1\" />\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"tabs": {
+		"prefix": "tabs",
+		"body": "\n<Tabs>\n\t<TabOne tabLabel=\"One$1\" />\n\t<TabTwo tabLabel=\"Two$2\" />\n</Tabs>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"text": {
+		"prefix": "text",
+		"body": "\n<Text>$1</Text>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"textbox": {
+		"prefix": "textbox",
+		"body": "\n<InputGroup>\n\t<Input />\n</InputGroup>\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"thumbnail": {
+		"prefix": "thumbnail",
+		"body": "\n<Thumbnail source={$1} />\n",
+		"description": "",
+		"scope": "source.js"
+	},
+	"underlinedTextbox": {
+		"prefix": "underlinedTextbox",
+		"body": "\n<InputGroup borderType=\"underline\">\n\t<Input placeholder=\"Type your text here$1\"/>\n</InputGroup>\n",
+		"description": "",
+		"scope": "source.js"
+	}
+}
