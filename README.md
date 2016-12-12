@@ -1,6 +1,6 @@
 # NativeBase Snippets for VS Code
 
-This extension provides an environment for React Native with NativeBase projects.
+This extension provides NativeBase snippets for React Native with NativeBase projects.
 
 ## Release Notes
 
