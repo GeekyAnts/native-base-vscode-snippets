@@ -11,7 +11,7 @@
     "engines": {
         "vscode": "^1.5.0"
     },
-    "icon": "http://nativebase.io/assets/img/front-page-icon.png",
+    "icon": "images/nativebase-logo.png",
     "categories": [
         "Snippets"
     ],
