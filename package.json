@@ -18,7 +18,7 @@
     "contributes": {
         "snippets": [
             {
-                "languageIDs":["javascript","javascriptreact"],
+                "language": "javascript",
                 "path": "./snippets/snippets.json"
             }
         ]
