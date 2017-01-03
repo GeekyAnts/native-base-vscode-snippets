@@ -2,7 +2,7 @@
     "name": "nativebase-snippets",
     "displayName": "NativeBase Snippets",
     "description": "NativeBase snippets for MS VS Code",
-    "version": "0.5.19",
+    "version": "0.5.20",
     "publisher": "GeekyAnts",
     "repository": {
         "type": "git",
@@ -19,6 +19,10 @@
         "snippets": [
             {
                 "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "javascriptreact",
                 "path": "./snippets/snippets.json"
             }
         ]

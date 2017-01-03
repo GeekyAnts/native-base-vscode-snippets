@@ -4,6 +4,10 @@ This extension provides NativeBase snippets for React Native with NativeBase pro
 
 ## Release Notes
 
+### 0.5.20
+
+- All the code snippets from NativeBase v0.5.20
+
 ### 0.5.19
 
 - All the code snippets from NativeBase v0.5.19
