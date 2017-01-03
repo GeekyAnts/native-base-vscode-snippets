@@ -1,9 +1,6 @@
 # Change Log
 All notable changes to the "nativebase-snippets" extension will be documented in this file.
 
-## [v0.5.20]
-- All code snippets in NativeBase v0.5.20
-
 ## [v0.5.19]
 - All code snippets in NativeBase v0.5.19
 
