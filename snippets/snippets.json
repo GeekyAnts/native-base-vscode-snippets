@@ -242,7 +242,7 @@
 	"underlinedTextbox": {
 		"prefix": "underlinedTextbox",
 		"body": "\n<InputGroup borderType=\"underline\">\n\t<Input placeholder=\"Type your text here$1\"/>\n</InputGroup>\n",
-		"description": "Textbox with bottom border",
+		"description": "Textbox with bottom border only",
 		"scope": "source.js"
 	}
 }
