@@ -2,7 +2,7 @@
     "name": "nativebase-snippets",
     "displayName": "NativeBase Snippets",
     "description": "NativeBase snippets for MS VS Code",
-    "version": "0.5.20",
+    "version": "0.5.22",
     "publisher": "GeekyAnts",
     "repository": {
         "type": "git",
